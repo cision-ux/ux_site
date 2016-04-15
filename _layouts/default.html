@@ -25,21 +25,39 @@
 </head>
 <body>
   <!--[if lt IE 8]>
-      <p class="browserupgrade">You are using an <strong>outdated</strong>
-      browser. Please <a href="http://browsehappy.com/">upgrade your browser</a>
-      to improve your experience.</p>
+  <p class="browserupgrade">You are using an <strong>outdated</strong>
+  browser. Please <a href="http://browsehappy.com/">upgrade your browser</a>
+  to improve your experience.</p>
   <![endif]-->
+  <header role="banner">
+    <div class="container">
+      {% if site.logourl != null %}
+      <img class="logo" src="{{ site.logourl }}" alt="{{ site.logoalt }}">
+      {% endif %}
+      <h1 class="site-title"><a class="title-link" href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
+    </div>
+  </header>
+
+  {% include sidebar.html %}
 
   <main role="main">
     {{ content }}
   </main>
+
+  <footer role="contentinfo">
+    <div class="wrap">
+      <p>This project is maintained by <a href="{{ site.author.url }}">{{ site.author.name }}</a>.</p>
+
+      <p>Hosted on <a href="http://pages.github.com/">GitHub Pages</a>.</p>
+    </div><!--/.wrap -->
+  </footer>
 
   {% javascript vendor %}
   {% javascript application %}
 
   <script>
     (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-    function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+      function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
     e=o.createElement(i);r=o.getElementsByTagName(i)[0];
     e.src='https://www.google-analytics.com/analytics.js';
     r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
