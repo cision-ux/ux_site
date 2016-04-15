@@ -1,0 +1,6 @@
+{
+  "name": "ux_site",
+  "dependencies": {
+    "jquery": "~1.12.0"
+  }
+}
