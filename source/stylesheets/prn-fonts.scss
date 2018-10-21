@@ -1,0 +1,52 @@
+/*
+This CSS resource incorporates links to font software which is
+the valuable copyrighted property of WebType LLC, The Font Bureau,
+and/or their suppliers. You may not
+attempt to copy, install, redistribute, convert, modify or reverse
+engineer this font software. Please contact WebType with any
+questions: http://www.webtype.com
+*/
+
+@font-face {
+  font-family: "Belizio";
+  src: url("../fonts/belizio_bold/f40bb090-d77c-4399-9206-e3bfa80f0c72-2.eot");
+  src: url("../fonts/belizio_bold/f40bb090-d77c-4399-9206-e3bfa80f0c72-2.eot?") format("embedded-opentype"),
+       url("../fonts/belizio_bold/f40bb090-d77c-4399-9206-e3bfa80f0c72-3.woff") format("woff"),
+       url("../fonts/belizio_bold/f40bb090-d77c-4399-9206-e3bfa80f0c72-1.ttf") format("truetype"),
+       url("../fonts/belizio_bold/f40bb090-d77c-4399-9206-e3bfa80f0c72-4.svg#web") format("svg");
+  font-style: normal;
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "Benton Sans";
+  src: url("../fonts/benton_sans_regular/c85593d9-51de-420f-9687-215704cff13b-2.eot");
+  src: url("../fonts/benton_sans_regular/c85593d9-51de-420f-9687-215704cff13b-2.eot?") format("embedded-opentype"),
+       url("../fonts/benton_sans_regular/c85593d9-51de-420f-9687-215704cff13b-3.woff") format("woff"),
+       url("../fonts/benton_sans_regular/c85593d9-51de-420f-9687-215704cff13b-1.ttf") format("truetype"),
+       url("../fonts/benton_sans_regular/c85593d9-51de-420f-9687-215704cff13b-4.svg#web") format("svg");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Benton Sans";
+  src: url("../fonts/benton_sans_regular_italic/b3e7f5ec-dc2f-4859-b89f-77b4afceee81-2.eot");
+  src: url("../fonts/benton_sans_regular_italic/b3e7f5ec-dc2f-4859-b89f-77b4afceee81-2.eot?") format("embedded-opentype"),
+       url("../fonts/benton_sans_regular_italic/b3e7f5ec-dc2f-4859-b89f-77b4afceee81-3.woff") format("woff"),
+       url("../fonts/benton_sans_regular_italic/b3e7f5ec-dc2f-4859-b89f-77b4afceee81-1.ttf") format("truetype"),
+       url("../fonts/benton_sans_regular_italic/b3e7f5ec-dc2f-4859-b89f-77b4afceee81-4.svg#web") format("svg");
+  font-style: italic;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Benton Sans";
+  src: url("../fonts/benton_sans_bold/5c52b78f-39db-4a80-9846-04d1f20cbb22-2.eot");
+  src: url("../fonts/benton_sans_bold/5c52b78f-39db-4a80-9846-04d1f20cbb22-2.eot?") format("embedded-opentype"),
+       url("../fonts/benton_sans_bold/5c52b78f-39db-4a80-9846-04d1f20cbb22-3.woff") format("woff"),
+       url("../fonts/benton_sans_bold/5c52b78f-39db-4a80-9846-04d1f20cbb22-1.ttf") format("truetype"),
+       url("../fonts/benton_sans_bold/5c52b78f-39db-4a80-9846-04d1f20cbb22-4.svg#web") format("svg");
+  font-style: normal;
+  font-weight: bold;
+}

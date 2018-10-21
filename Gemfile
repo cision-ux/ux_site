@@ -1,9 +1,14 @@
-source "https://rubygems.org"
+# If you do not have OpenSSL installed, change
+# the following line to use 'http://'
+source 'https://rubygems.org'
 
-gem "autoprefixer-rails", "~> 6.3.1"
-gem "html-proofer", "~> 2.6.4"
-gem "jekyll", "~> 3.1.1"
-gem "jekyll-assets", "~> 2.1.2"
-gem "jekyll-sitemap", "~> 0.10.0"
-gem "sass", "~> 3.4.21"
-gem "uglifier", "~> 2.7.2"
+# For faster file watcher updates on Windows:
+gem 'wdm', '~> 0.1.0', platforms: [:mswin, :mingw]
+
+# Windows does not come with time zone data
+gem 'tzinfo-data', platforms: [:mswin, :mingw, :jruby]
+
+# Middleman Gems
+gem 'middleman', '>= 4.2.1'
+gem 'middleman-livereload'
+gem 'middleman-compass', '>= 4.0.0'
